@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.timerstyle {
+    font-size: 3.125rem;
+}
+
+.names {
+    font-size: 1.25rem;
+}
+
+.container h1 {
+    font-size: 3.75rem;
+    padding-bottom: 1.25rem;
+}
+
+button {
+    padding: .625rem 1.875rem;
+    font-size: 1.25rem;
+    margin-bottom: .3125rem;
+}
+
+.spacing {
+    display: inline-block;
+}
+
+#hours::before,
+#minutes::before,
+#seconds::before {
+    content: ': ';
+}
+
+.ps-1 {
+    padding-left: 1.6rem;
+}
+
+#timer {
+    padding-bottom: 1.25rem;
+}
